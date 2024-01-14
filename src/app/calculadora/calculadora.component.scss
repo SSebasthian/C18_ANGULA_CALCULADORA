@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #76453B;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+}
+#fondo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F8FAE5;
+}
+#calculadora{
+    width: 350px;
+    padding: 50px;
+    border: 1px solid #B19470;
+    background: #43766C;
+    border-radius: 20px;
+    margin: auto;
+}
+.datos{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #fff;
+    
+}
+.datos p{
+    text-align: center;
+}
+.datos input{
+    width: 100%;
+    height: 30px;
+    padding: 15px 15px 15px 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #eff0e6;
+}
+.datos input::placeholder {
+    width: -550px;
+    font-size: 16px;
+  }
+.botones{
+    width: 300px;
+    margin-top: 30px;
+}
+.botones button{
+    position: relative;
+    padding: 10px;
+    margin: 6px;
+    min-width: 40px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(#76453B, #76453B);
+    border: 1px solid #43766C;
+}
+h2{
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: #B19470;
+    text-align: right;
+    font-size: 2.5em;
+    color: #3a3c2e;
+    overflow: hidden;
+    box-shadow: inset 0 6px 1px 0 rgba(0,0,0,0.35),
+    0 5px 0px rgba(0,0,0,0.5),
+    0 15px 25px rgba(0,0,0,0.35);
+    user-select: none;
+}
